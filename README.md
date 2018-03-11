@@ -1,1 +1,1 @@
-# 8-bit-wallace-tree-multipier
+This project has three files. full_adder.vhd,half_adder.vhd and wallace8.vhd. half adder and full adder are ported onto wallace8 for using them for addition. The wallace8 module multiplies two 8 bit binary numbers and gives a 16 bit binary number. 
