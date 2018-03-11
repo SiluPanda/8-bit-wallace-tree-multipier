@@ -32,7 +32,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity wallace8 is
 	Port ( A : in  STD_LOGIC_VECTOR (7 downto 0);
            B : in  STD_LOGIC_VECTOR (7 downto 0);
-           prod : out  STD_LOGIC_VECTOR (16 downto 0));
+           prod : out  STD_LOGIC_VECTOR (15 downto 0));
 end wallace8;
 
 architecture Behavioral of wallace8 is
@@ -218,8 +218,8 @@ prod(11) <= k64;
 prod(12) <= k65;
 prod(13) <= k66;
 prod(14) <= k67;
-prod(15) <= k68;
-prod(16) <= c68;
+prod(15) <= k68 or c68;
+
 
 
 
